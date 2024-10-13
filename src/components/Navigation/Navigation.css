@@ -1,0 +1,54 @@
+/* Basic styling for the nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect with bottom border */
+nav ul li:hover {
+    color: rgb(107, 150, 242); /* Change the text color on hover */
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color:rgb(107, 150, 242);
+    transition: width 0.3s ease;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+.btn-book-now button {
+    padding: 10px 20px;
+    background-color: rgb(39, 145, 244);  /* Button background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-book-now button:hover {
+    background-color: rgb(107, 150, 242); ;
+}

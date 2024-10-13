@@ -1,0 +1,15 @@
+.home-title{
+    text-align: center;
+    margin: 0 auto;
+    padding: 150px 0;
+    width: 600px;
+}
+.home-title h1{
+    color: rgb(15, 66, 66);
+    font-weight: bold;
+}
+.home-title p{
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+}

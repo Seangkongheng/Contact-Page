@@ -1,0 +1,13 @@
+.footer-bottom-contact{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-contact h1{
+    color: rgb(15, 66, 66);
+    font-size: 20px; 
+}
+.footer-bottom-contact p{
+    color: rgb(15, 66, 66);
+    font-size: 12px; 
+}

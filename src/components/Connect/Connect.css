@@ -1,0 +1,44 @@
+.connect-blok{
+    padding: 100px 0;
+}
+
+.contect-block-item {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(214, 244, 234);
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.contect-block-item h1{
+    
+    color: rgb(15, 66, 66);
+}
+.contect-block-item p{
+    
+    font-size: 15px;
+    margin-top: 10px;
+}
+.content-connect{
+    width: 800px;
+}
+.connect-blok button{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: rgb(101, 101, 255);
+
+    transition: 0.3s;
+}
+.connect-blok button:hover{
+    cursor: pointer;
+    background-color: rgb(148, 148, 255);
+    
+}
+
+

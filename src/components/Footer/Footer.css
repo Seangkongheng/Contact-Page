@@ -1,0 +1,33 @@
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-des p{
+    width: 300px;
+    margin-top: 10px;
+    color: gray;
+}
+.footer-information h1{
+    color: rgb(15, 66, 66);
+    font-size: 20px;
+}
+.footer-menu h1{
+    color: rgb(15, 66, 66);
+    font-size: 20px; 
+}
+.footer-des h1{
+    color: rgb(15, 66, 66);
+    font-size: 20px; 
+}
+.footer-menu li{
+    margin-top: 10px;
+    
+    color: gray;
+    list-style-type: none;
+}
+
+.footer-information li{
+    margin-top: 10px;
+    color: gray;
+    list-style-type: none;
+}
